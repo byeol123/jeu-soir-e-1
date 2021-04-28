@@ -6,8 +6,8 @@ int main()
 {
     while (choix != 2)
     {
-        std::cout << "1 Jouer" << "\n" << "2 Quitter" << "\n";
-        std::cout << "Boisson listees dans le jeu : rhum, tequila, martini, cuatro, jeager, pastis, whisky, vodka, jet27, champagne,\n";
+        std::cout << "Jouer: 1" << "\n" << "Quitter: 2" << "\n";
+        std::cout << "Misez sur votre boisson favorite: rhum, tequila, martini, cuatro, jeager, pastis, whisky, vodka, jet27, champagne.\n";
         std::cin >> choix;
         if (choix == 2)
         {
